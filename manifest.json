@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Xcaps",
+  "version": "1.0",
+  "description": "Adds a drop caps to every post on X.",
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://*.x.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
