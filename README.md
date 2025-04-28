@@ -11,4 +11,5 @@ Then, in chrome extensions, enable 'developer mode.'
 Click 'load unpacked' and navigate to the folder containing this extension.
 
 # Images
-todo
+![.](/install.png)
+![.](/example.png)
